@@ -83,3 +83,12 @@ aside  {
 	   resize: both;
            overflow: auto;	
        }
+logo  {
+         width: 10%;
+	 height: 10%;
+	 background-color: #64569E;
+	 float: left;
+	 resize: both;
+         overflow: auto;
+	
+      }
