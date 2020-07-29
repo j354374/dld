@@ -122,10 +122,10 @@ aside  {
            overflow: auto;	
 }
 logo  {
-         width: 10%;
-	 height: 10%;
+   width: 20%;
+	 height: 100%;
 	 background-color: #64569E;
 	 float: left;
 	 resize: both;
-         overflow: auto;
+   overflow: auto;
 }
