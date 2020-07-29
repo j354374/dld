@@ -21,6 +21,15 @@ resize: both;
 overflow: auto;	
 }
 
+#leftcolumn {
+   float:left;
+   width:300px;
+}
+#rightcolumn {
+   float:right;
+   width:300px;
+}
+
 header {
  width: 100%;
  height: 100px;
