@@ -22,12 +22,21 @@ overflow: auto;
 }
 
 #leftcolumn {
-   float:left;
-   width:300px;
+width: 10%;
+height: 10%;
+background-color: #64569E;	
+float:left;
+resize: both;
+overflow: auto;		
 }
+
 #rightcolumn {
-   float:right;
-   width:300px;
+width: 10%;
+height: 10%;
+background-color: #64569E;	
+float:right;
+resize: both;
+overflow: auto;		
 }
 
 header {
