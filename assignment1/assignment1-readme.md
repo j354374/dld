@@ -125,33 +125,7 @@ TOC
 ```
 
 
-### Wireframe Layout (to be replaced):
 
-```
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>news</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<header>Affluent Bilby Classifieds</header>
-<nav>-Home- -Blog- -Projects- -About- -Open Source-</nav>
-<main>
-<aside> </aside> 
-  <section>
-    <div></div><article></article><aside></aside>
-  </section>  
-    
-</main>
-  
-<footer>  
-</footer>  
-</body>
-
-</html>
-```
 
 ### Adding a navigation bar
 
