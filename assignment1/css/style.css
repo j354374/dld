@@ -21,7 +21,7 @@ body {
 	overflow: auto;	
 }
 
-#leftcolumn {
+.leftcolumn {
 	width: 10%;
 	height: 10%;
 	background-color: #8f9fe0;	
@@ -30,7 +30,7 @@ body {
 	overflow: auto;		
 }
 
-#rightcolumn {
+.rightcolumn {
 	width: 10%;
 	height: 10%;
 	background-color: #64569E;	
@@ -78,7 +78,7 @@ footer {
 }
 
 
-#leftfooter {
+.leftfooter {
 	width: 10%;
 	height: 10%;
 	background-color: #8f9fe0;	
@@ -87,7 +87,7 @@ footer {
 	overflow: auto;		
 }
 
-#rightfooter {
+.rightfooter {
 	width: 10%;
 	height: 10%;
 	background-color: #64569E;	
