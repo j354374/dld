@@ -53,7 +53,7 @@ TOC
 </html>
 ```
 
-### Layout from class
+### Layout from class:
 
 ```
 <!doctype html>
@@ -86,7 +86,7 @@ TOC
 
 ```
 
-### Second layout from class ###
+### Second layout from class: 
 
 ```
 <!doctype html>
