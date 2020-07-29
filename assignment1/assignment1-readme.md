@@ -86,6 +86,43 @@ TOC
 
 ```
 
+### Second layout from class ###
+
+```
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Week 2 dd</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+	 <header>
+	 <h1>header</h1>
+	 </header>	 
+	 <nav>
+	 <p>menu</p>	 
+	 </nav>
+	 <main>
+		 <section>hjgvyghv</section>
+		<article>
+			<p>test</p>
+	    </article>	
+		<aside>
+		<p>test</p> 
+		</aside>	
+	 </main>
+	 <footer>
+	<p> footer</p>	 
+     </footer>	 
+	 
+	 </div>
+</body>
+</html>
+
+```
 
 
 ### Wireframe Layout (to be replaced):
