@@ -74,7 +74,7 @@ article {
 	    float: right;
 	    resize: both;
             overflow: auto;	
-        }
+}
 aside  {
 	   width: 46%;
 	   height: 47%;
@@ -82,7 +82,7 @@ aside  {
 	   float: right;
 	   resize: both;
            overflow: auto;	
-       }
+}
 logo  {
          width: 10%;
 	 height: 10%;
@@ -91,4 +91,4 @@ logo  {
 	 resize: both;
          overflow: auto;
 	
-      }
+}
