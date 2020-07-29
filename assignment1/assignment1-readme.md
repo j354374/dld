@@ -165,3 +165,6 @@ https://www.freepik.com/free-vector/play-zone-text-style-effect_7885270.htm#page
 <a href="https://www.freepik.com/free-photos-vectors/school">School vector created by YusufSangdes - www.freepik.com</a>
 
 https://www.fontsquirrel.com/fonts/jellee
+
+https://www.freepik.com/free-vector/teenager-boy-bedroom-interior-computers-desk_8924566.htm#page=1&query=3d%20printer&position=0
+
