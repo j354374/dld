@@ -159,6 +159,8 @@ https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
 
 https://www.w3schools.com/cssref/css3_pr_resize.asp
 
+https://www.w3schools.com/cssref/pr_class_float.asp
+
 https://web.dev/resize-observer/
 
 https://stackoverflow.com/questions/6385293/simple-two-column-html-layout-without-using-tables
