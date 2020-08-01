@@ -57,21 +57,21 @@ footer {
 }
 
 .left-footer {
-	    width: 225px;
-	    height: 120px;
+	    width: 245px;
+	    height: 125px;
 	    background-color: aqua;
 	    float: left;
-      margin: 1% 1% 1% 3%;
+      margin: 1% 0% 0% 1%;
 	    #resize: both;
       #overflow: auto;	
 }
 
 .right-footer {
 	    width: 700px;
-	    height: 120px;
+	    height: 125px;
 	    background-color: pink;
 	    float: inherit;
-      margin: 1% 1% 1% 0%;
+      margin: 1% 1% 1% 1%;
 	    #resize: both;
       #overflow: auto;	
 }
@@ -95,10 +95,10 @@ article {
 
 .article-left-column {
 
-   width: 230px;
-	 height: 600px;
+   width: 235px;
+	 height: 615px;
 	 background: violet;
-	 margin: 0 0 2% 1%;
+	 margin: 0% 0% 0% -1%;
 	 float: left;
 	 #resize: both;
    #overflow: auto;
@@ -110,10 +110,10 @@ article {
 
 .article-right-column {
 
-   width: 690px;
-	 height: 600px;
+   width: 710px;
+	 height: 615px;
 	 background: violet;
-	 margin: 0 0 2% 1%;
+	 margin: 0% -2% 2% 1%;
 	 float: left;
 	 #resize: both;
    #overflow: auto;
