@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	background-color: white;
+	background-color: #93300;
 }
 
 #wrapper {
@@ -17,7 +17,6 @@ max-width: 1020px;
 min-height: 1135px;	
 background-color: yellow;	
 margin: 0 auto;
-#margin: 1% 1% 1% 1%;  
 }
 
 header {
@@ -34,6 +33,7 @@ height: 70px;
 background-color: #ccc;
 float: left;
 margin: 1% 1% 1% 1%;   
+	
 }
 
 main {
@@ -42,8 +42,8 @@ main {
 	background-color: #1A7F7D;
 	float: left;
 	padding: 2%;
-  background-color: blue;
   margin: 1% 1% 1% 1%; 
+	
 }
 
 footer {
@@ -52,61 +52,87 @@ footer {
 	   background-color: darkblue;
 	   float: left;
      margin: 1% 1% 1% 1%; 
+  
+  
+}
+
+.left-footer {
+	    width: 245px;
+	    height: 125px;
+	    background-color: aqua;
+	    float: left;
+      margin: 1% 0% 0% 1%;
+	    #resize: both;
+      #overflow: auto;	
+}
+
+.right-footer {
+	    width: 720px;
+	    height: 125px;
+	    background-color: pink;
+	    float: inherit;
+      margin: 1% 1% 1% 1%;
+	    #resize: both;
+      #overflow: auto;	
 }
 
 
-
+section {
+	    width: 46%;
+		height: 97%;
+	    background-color: aqua;
+	    float: left;
+}
 article {
-	    width: 50%;
-	    height: 485px;
+	    width: 450px;
+	    height: 490px;
 	    background: violet;
-	    margin: 0% 0% 0% 0%;
+	    margin: 0 0 2% 1%;
 	    float: left;
 	    #resize: both;
       #overflow: auto;	
 }
 
-.articlerightcolumn {
+.article-left-column {
 
-   width: 50%;
-	 height: 57%;
+   width: 235px;
+	 height: 615px;
 	 background: violet;
-	 margin: 0% 0% 0% 0%;
+	 margin: 0% 0% 0% -1%;
 	 float: left;
 	 #resize: both;
    #overflow: auto;
+  
+  
 }
 
-section {
-	    width: 67%;
-	    height: 605px;
-	    background: black;
-	    margin: -1% 0% 0% 0%;
-	    float: inherit;
-	    #resize: both;
-      #overflow: auto;
+
+
+.article-right-column {
+
+   width: 730px;
+	 height: 615px;
+	 background: violet;
+	 margin: 0% -2% 2% 1%;
+	 float: left;
+	 #resize: both;
+   #overflow: auto;
+  
 }
 
 aside  {
-	   width: 33%;
-	   height: 100%;
-	   background: #64569E;
-	   float: left;
-     margin: -1% 1% 0% -1%;
+	   width: 46%;
+	   height: 47%;
+	   background-color: #64569E;
+	   float: right;
 }
 
-.section-header { 
-   width: 100%;
+logo  {
+   width: 230px;
 	 height: 120px;
 	 background-color: #64569E;
-	 float: right;
-   margin: 0% 0% 0% 0%;
-}
-
-.small-aside { 
-   width: 50%;
-	 height: 140px;
-	 background-color: #64569E;
 	 float: left;
-   margin: 0% 0% 0% 0%;
+   margin: 1.5% 1% 1% 4%;
+	 #resize: both;
+   #overflow: auto;
 }
