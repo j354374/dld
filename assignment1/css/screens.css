@@ -6,24 +6,24 @@
 
 .article-right-column {
 
-         max-width: 260px;
+         max-width: 36%;
 	 float: right;
 }
 
 	
 .article-left-column {
 
-         max-width: 60px;
+         max-width: 36%;
 }	
 
 	
 .right-footer {
-	    max-width: 270px;
+	    max-width: 36%;
 }
 
 #wrapper {
-max-height: 520px;
-max-width: 620px;	
+max-height: 36%;
+max-width: 36%;	
 }
 
   
