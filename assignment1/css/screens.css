@@ -51,12 +51,14 @@ max-height: 520px;
 /*Anything bigger */
 @media only screen and (min-width: 1021px){
 #wrapper{
-	
 	max-height: 1135px;
 	}	
 	
 .article-right-column {
-
-         max-width: 720px;
+                      max-width: 720px;
 		      }	
+	
+.right-footer {
+	      max-width: 670px;
+	      }
 }	
