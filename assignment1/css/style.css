@@ -5,21 +5,7 @@
 @import url("640px.css") screen and (max-device-width: 640px);
 @import url("1024px.css") screen and (max-device-width: 1024px);
 @import url("1848px.css") screen and (max-device-width: 1848px);*/
-
-/* Small screen from 0 to 360px */
-@media only screen and (max-width: 360px) {
-
-}
-
-/*small screen 360 to 480px */
-@media only screen and (max-width: 480px) {
-
-}
-
-/*Small tablet to big tablet: 768px to 1023px */
-@media only screen and (max-width >= 1020px) {
-}	
-
+@import url("screens.css"); 
 
 
 #wrapper {
