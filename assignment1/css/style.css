@@ -3,7 +3,7 @@
 @import url("360px.css") screen and (max-device-width: 360px);
 @import url("480px.css") screen and (max-device-width: 480px);
 @import url("640px.css") screen and (max-device-width: 640px);
-@import url("768px.css") screen and (min-device-width: 768px);
+
 
 
 html {
