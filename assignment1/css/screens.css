@@ -65,10 +65,13 @@ max-width: 620px;
 	}	
 	
 .article-right-column {
-                      max-width: 720px;
+                     /* max-width: 720px;*/
+		    max-width: 100%;	
 		      }	
 	
 .right-footer {
-	      max-width: 670px;
+	   /*   max-width: 670px; */
+	        max-width: 100%;
+	   
 	      }
 }	
