@@ -4,15 +4,49 @@
 /* Small screen from 0 to 360px */
 @media only screen and (max-width: 360px) {
 
+.article-right-column {
+
+         max-width: 680px;
+}
+
+.right-footer {
+	    max-width: 670px;
+}
+
+#wrapper {
+max-height: 1020px;
+}
+
+  
+  
 }
 
 /*small screen 360 to 480px */
 @media only screen and (max-width: 480px) {
 
+  .article-right-column {
+
+         max-width: 680px;
 }
 
-/*Small tablet to big tablet: 768px to 1023px */
+.right-footer {
+	    max-width: 670px;
+}
+
+}
+
+/*Small tablet to big tablet: 768px to 1020px */
 @media only screen and (max-width: 1020px) {
+  
+.article-right-column {
+
+         max-width: 680px;
+}
+
+.right-footer {
+	    max-width: 670px;
+}  
+  
 }	
 /*Anything bigger */
 @media only screen and (min-width: 1021px) {
