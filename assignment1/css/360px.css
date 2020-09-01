@@ -3,5 +3,8 @@
 .article-right-column {
 
          max-width: 600px;
-	  
+}
+
+.right-footer {
+	    max-width: 100px;
 }
