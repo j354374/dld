@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+@import url("360px.css") screen and (max-device-width: 360px);
 
 html {
  font-family: Verdana, "sans-serif";
@@ -129,7 +130,9 @@ aside  {
    width: 230px;
 	 height: 120px;
 	 background-color: #64569E;
-	 float: left;
+	 background-image: url("https://raw.githubusercontent.com/j354374/dld/master/assignment1/images/toyslogo.png"); 
+   float: left;
    margin: 2% 0% 0% 2%;
    padding: 1% 1% 1% 1%;
 }
+
