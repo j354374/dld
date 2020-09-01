@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Small screen from 0 to 360px */
+@media only screen and (max-width: 360px) {
+
+.article-right-column {
+
+         max-width: 36%;
+	 min-width: 36%;
+}
+
+	
+.article-left-column {
+
+         max-width: 36%%;
+}	
+
+	
+.right-footer {
+	    max-width: 36%;
+}
+
+#wrapper {
+max-height: 100%;
+max-width: 100%;	
+}
+
+logo {
+    max-width: 100%;
+    }	
+  
+  
+}
+
+/*small screen 360 to 480px */
+@media only screen and (max-width: 480px) {
+
+  .article-right-column {
+
+         max-width: 280px;
+}
+
+.right-footer {
+	    max-width: 290px;
+}
+
+}
+
+/*Small tablet to big tablet: 768px to 1020px */
+@media only screen and (max-width: 1020px) {
+  
+.article-right-column {
+
+         max-width: 680px;
+}
+
+.right-footer {
+	    max-width: 670px;
+}  
+  
+}	
+/*Anything bigger */
+@media only screen and (min-width: 1021px){
+#wrapper{
+	/*max-height: 1135px;*/
+	max-height: 100%;
+	min-height: 100%;
+	background-color: yellow;
+	}	
+	
+.article-right-column {
+                     /* max-width: 720px;*/
+		    max-width: 100%;	
+		      }	
+	
+.right-footer {
+	   /*   max-width: 670px; */
+	        max-width: 100%;
+	
+	       }
+}	
