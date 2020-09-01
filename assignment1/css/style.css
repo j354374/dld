@@ -115,8 +115,7 @@ article {
    width: 730px;
 	 height: 615px;
 	 background: violet;
-	 margin: 0% -2% 2% 1%;
-	 float: left;
+	 margin: 0% -2% 2% 1%;	 
 }
 
 aside  {
@@ -136,3 +135,8 @@ aside  {
    padding: 1% 1% 1% 1%;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
