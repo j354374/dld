@@ -50,4 +50,5 @@ max-height: 1020px;
 }	
 /*Anything bigger */
 @media only screen and (min-width: 1021px) {
+min-height: 1135px;
 }	
