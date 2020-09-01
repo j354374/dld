@@ -54,4 +54,9 @@ max-height: 520px;
 	
 	max-height: 1135px;
 	}	
+	
+.article-right-column {
+
+         max-width: 780px;
+}	
 }	
