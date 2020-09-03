@@ -29,8 +29,8 @@ h1 {
 }
 
 .wrapper {
-max-width: 1020px;
-min-height: 1135px;
+max-width: 60%;
+min-height: 128vh;
 background-color: yellow;
 margin: 0 auto;
 }
