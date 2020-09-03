@@ -1,0 +1,211 @@
+/*
+  Color Pallete
+  Header and Footer - #B39DDB
+  Asides - #F06292
+  Main - #8BC34A
+*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+.toys-logo  {
+   width: 230px;
+	 height: 120px;
+	 background-color: #64569E;
+	 background-image: url("https://raw.githubusercontent.com/j354374/dld/master/assignment1/images/toyslogo.png");
+   float: left;
+   margin: 2% 0% 0% 2%;
+   padding: 1% 1% 1% 1%;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+max-width: 1020px;
+min-height: 1135px;
+background-color: yellow;
+margin: 0 auto;
+}
+
+/*.container {
+  width: 95%;
+  margin: auto;
+}*/
+
+
+
+header {
+  height: 15vh;
+  padding: 2% 2% 2% 2%;
+  margin: 2% 2% 2% 1%;
+  background: #B39DDB;
+}
+
+.footer-main {
+  padding: 0% 0% 0% 0%;
+  margin: 4% 2% 1% 2%;
+  height: 20vh;
+  background: #B39DDB;
+}
+
+nav {
+background-color: #ccc;
+height: 5vh;
+width: 96%;
+padding: 0% 0% 0% 0%;
+margin: 1% 0% 1% 2%;
+}
+
+header,
+footer,
+aside,
+main {
+  display: flex;
+}
+
+aside#left-aside {
+  background: #F06292;
+  width: 25%;
+  margin: 1% 1% 0% 1%;
+  height: 72vh;
+}
+aside#right-aside {
+  background: #F06292;
+  width: 75%;
+  margin: 1% 1% 1% 0%;
+  height: 72vh;
+}
+
+
+footer#left-footer {
+  background: #F06292;
+  width: 25%;
+  margin: 1% 1% 0% 1%;
+  height: 12vh;
+  float: left;
+}
+footer#right-footer {
+  background: #F06292;
+  width: 72%;
+  margin: 1% 1% 1% 0%;
+  height: 12vh;
+  float: right;
+}
+
+main {
+  background: #8BC34A;
+}
+
+aside,
+main {
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 75vh;
+}
+
+main {
+  margin: 1% 2% 2% 2%;
+  padding: 1% 0% 1% 0%;
+  width: 96%;
+}
+
+section,main:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+@media(max-width:700px) {
+
+  .container {
+    width: 100%;
+  }
+
+
+
+  aside,
+  main {
+    float: none;
+  }
+
+
+  aside#left-aside {
+    background: #F06292;
+    width: 25%;
+    margin: 1% 1% 0% 1%;
+    height: 32vh;
+  }
+  aside#right-aside {
+    background: #F06292;
+    width: 75%;
+    margin: 1% 1% 1% 0%;
+    height: 32vh;
+  }
+
+  main {
+    height: 40vh;
+  }
+
+  main {
+    margin: 2% 0;
+    width: 100%;
+  }
+
+  .footer-main {
+    padding: 0% 0% 0% 0%;
+    margin: 4% 2% 1% 2%;
+    height: 15vh;
+    background: #B39DDB;
+  }
+}
+
+@media(max-width:600px) {
+
+  .container {
+    width: 100%;
+  }
+
+
+
+  aside,
+  main {
+    float: none;
+  }
+
+
+  aside#left-aside {
+    background: #F06292;
+    width: 25%;
+    margin: 1% 1% 0% 1%;
+    height: 32vh;
+  }
+  aside#right-aside {
+    background: #F06292;
+    width: 75%;
+    margin: 1% 1% 1% 0%;
+    height: 32vh;
+  }
+
+  main {
+    height: 40vh;
+  }
+
+  main {
+    margin: 2% 0;
+    width: 100%;
+  }
+  .footer-main {
+    padding: 0% 0% 0% 0%;
+    margin: 4% 2% 1% 2%;
+    height: 10vh;
+    background: #B39DDB;
+}
