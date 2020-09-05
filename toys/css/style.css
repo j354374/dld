@@ -3,165 +3,171 @@
 
 
 html {
- font-family: Verdana, "sans-serif";
- font-size: calc(0.2em + 1vw);
- margin: 0;
- padding: 0;
+  font-family: Verdana, "sans-serif";
+  font-size: calc(0.2em + 1vw);
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background-color: #fffff0;
+  background-color: #fffff0;
 }
 
 #wrapper {
 /*min-width: 55.19vw;*/
-max-width: 55.19vw;
-min-height: 120.49vh;
-background-color: yellow;
-margin: 0 auto;
+  max-width: 55.19vw;
+  min-height: 120.49vh;
+  background-color: yellow;
+  margin: 0 auto;
 }
 
 header {
- width: 98%;
- height: 18.7vh;
- background-color: #FF0004;
- float: left;
- margin: 1% 1% 1% 1%;
+  width: 98%;
+  height: 18.7vh;
+  background-color: #FF0004;
+  float: left;
+  margin: 1% 1% 1% 1%;
 }
 
 nav {
-width: 98%;
-height: 8vh;
-background-color: #ccc;
-float: left;
-margin: 1% 1% 1% 1%;
+  width: 98%;
+  height: 8vh;
+  background-color: #ccc;
+  float: left;
+  margin: 1% 1% 1% 1%;
 }
 
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: black;
 }
+
 nav li {
-	float: left;
-	list-style-type: none;
-	font-size: 1.25rem;
-	background-color: #ffe6e6;
-	padding-left: 0vw;
-	padding-right: 1.08vw;
-	margin: -1% 14% 0% -1%;
+  float: left;
+  list-style-type: none;
+  font-size: 1.25rem;
+  background-color: #ffe6e6;
+  padding-left: 0vw;
+  padding-right: 1.08vw;
+  margin: -1% 14% 0% -1%;
 }
 
 nav li a {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 0.86vw;
-	text-decoration: none;
-}
-nav li a:hover {
-	background-color: #ff4d4d;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0.86vw;
+  text-decoration: none;
 }
 
+nav li a:hover {
+  background-color: #ff4d4d;
+}
 
 main {
-	width: 94%;
-	height: 64.22vh;
-	background-color: #1A7F7D;
-	float: left;
-	padding: 2%;
+  width: 94%;
+  height: 64.22vh;
+  background-color: #1A7F7D;
+  float: left;
+  padding: 2%;
   margin: 1% 1% 1% 1%;
 }
 
 .toys-footer {
-	width: 98%;
-	   height: 15.92vh;
-	   background-color: darkblue;
-	   float: left;
-     margin: 1% 1% 1% 1%;
-  }
+  width: 98%;
+  height: 15.92vh;
+  background-color: darkblue;
+  float: left;
+  margin: 1% 1% 1% 1%;
+}
+
 .left-footer {
-	    width: 13.25vw;
-	    height: 13.26vh;
-	    background-color: aqua;
-	    float: left;
-      margin: 1% 0% 0% 1%;
-	   }
+  width: 13.25vw;
+  height: 13.26vh;
+  background-color: aqua;
+  float: left;
+  margin: 1% 0% 0% 1%;
+}
 
 .right-footer {
-	    width: 38.96vw;
-	    height: 13.26vh;
-	    background-color: pink;
-	    float: inherit;
-      margin: 1% 1% 1% 1%;
+  width: 38.96vw;
+  height: 13.26vh;
+  background-color: pink;
+  float: inherit;
+  margin: 1% 1% 1% 1%;
 }
+
 article {
-	    width: 24.35vw;
-	    height: 52.01vh;
-	    background: violet;
-	    margin: 0 0 2% 1%;
-	    float: left;
+  width: 24.35vw;
+  height: 52.01vh;
+  background: violet;
+  margin: 0 0 2% 1%;
+  float: left;
 }
+
 .article-left-column {
-   width: 12.71vw;
-	 height: 65.28vh;
-	 background: violet;
-	 margin: 0% 0% 0% -1%;
-	 float: left;
+  width: 12.71vw;
+  height: 65.28vh;
+  background: violet;
+  margin: 0% 0% 0% -1%;
+  float: left;
 }
+
 .article-right-column {
-
-   width: 39.5vw;
-	 height: 65.28vh;
-	 background: violet;
-	 margin: 0% -2% 2% 1%;
+  width: 39.5vw;
+  height: 65.28vh;
+  background: violet;
+  margin: 0% -2% 2% 1%;
 }
 
-aside  {
-	   width: 46%;
-	   height: 47%;
-	   background-color: #64569E;
-	   float: right;
+aside {
+  width: 46%;
+  height: 47%;
+  background-color: #64569E;
+  float: right;
 }
 
-.toys-logo  {
-   width: 12.44vw;
-	 height: 12.73vh;
-	 background-color: #64569E;
-	 background-image: url("https://raw.githubusercontent.com/j354374/dld/master/assignment1/images/toyslogo.png");
-   float: left;
-   margin: 2% 0% 0% 2%;
-   padding: 1% 1% 1% 1%;
+.toys-logo {
+  width: 12.44vw;
+  height: 12.73vh;
+  background-color: #64569E;
+  background-image: url("https://raw.githubusercontent.com/j354374/dld/master/assignment1/images/toyslogo.png");
+  float: left;
+  margin: 2% 0% 0% 2%;
+  padding: 1% 1% 1% 1%;
 }
 
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 @media(max-width:700px) {
 
   #wrapper {
-   min-width: 100%;
+    min-width: 100%;
   }
-.article-left-column{
-min-width: 30%;
-}
-.article-right-column{
-min-width: 70%;
-}
 
-.left-footer {
-	    min-width: 30%;
-	      }
+  .article-left-column {
+    min-width: 30%;
+  }
 
-.right-footer {
-	    min-width: 67%;
-    }
-    
-    main {
+  .article-right-column {
+    min-width: 70%;
+  }
+
+  .left-footer {
+    min-width: 30%;
+  }
+
+  .right-footer {
+    min-width: 67%;
+  }
+
+  main {
     min-height: 100%;
-    }
+  }
