@@ -171,3 +171,11 @@ aside {
   main {
     min-height: 100%;
   }
+
+  .toys-logo {
+
+   background-size: contain;
+   background-repeat: no-repeat;
+   min-width: 25%;
+   min-height: 25%;
+  }
