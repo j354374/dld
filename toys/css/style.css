@@ -109,7 +109,8 @@ article {
 }
 
 .article-left-column {
-  width: 12.71vw;
+/*  width: 12.71vw; */
+  width: 30%;
   height: 65.28vh;
   background: violet;
   margin: 0% 0% 0% -1%;
@@ -117,7 +118,8 @@ article {
 }
 
 .article-right-column {
-  width: 39.5vw;
+  /*width: 39.5vw;*/
+  width: 70%;
   height: 65.28vh;
   background: violet;
   margin: 0% -2% 2% 1%;
@@ -125,13 +127,15 @@ article {
 
 aside {
   width: 46%;
-  height: 47%;
+  /*height: 47%;*/
+  height: 75vh;
   background-color: #64569E;
   float: right;
 }
 
 .toys-logo {
-  width: 12.44vw;
+  /*width: 12.44vw;*/
+  width: 23%;
   height: 12.73vh;
   background-color: #64569E;
   background-image: url("https://raw.githubusercontent.com/j354374/dld/master/assignment1/images/toyslogo.png");
@@ -146,7 +150,7 @@ aside {
   display: table;
 }
 
-@media(max-width:700px) {
+/*@media(max-width:700px) {
 
   #wrapper {
     min-width: 100%;
@@ -176,6 +180,5 @@ aside {
 
    background-size: contain;
    background-repeat: no-repeat;
-   min-width: 25%;
-   min-height: 20%;
-  }
+
+  } */
