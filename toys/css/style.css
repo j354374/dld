@@ -1,16 +1,133 @@
-/*
-  Color Pallete
-  Header and Footer - #B39DDB
-  Asides - #F06292
-  Main - #8BC34A
-*/
+@charset "utf-8";
+/* CSS Document */
 
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+html {
+ font-family: Verdana, "sans-serif";
+ font-size: calc(0.2em + 1vw);
+ margin: 0;
+ padding: 0;
+}
+
+body {
+	background-color: #fffff0;
+}
+
+#wrapper {
+max-width: 55.19vw;
+min-height: 120.49vh;
+background-color: yellow;
+margin: 0 auto;
+}
+
+header {
+ width: 98%;
+ height: 18.7vh;
+ background-color: #FF0004;
+ float: left;
+ margin: 1% 1% 1% 1%;
+}
+
+nav {
+width: 98%;
+height: 8vh;
+background-color: #ccc;
+float: left;
+margin: 1% 1% 1% 1%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	color: black;
+}
+nav li {
+	float: left;
+	list-style-type: none;
+	font-size: 1.25rem;
+	background-color: #ffe6e6;
+	padding-left: 0vw;
+	padding-right: 1.08vw;
+	margin: -1% 14% 0% -1%;
+}
+
+nav li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0.86vw;
+	text-decoration: none;
+}
+nav li a:hover {
+	background-color: #ff4d4d;
+}
+
+
+main {
+	width: 94%;
+	height: 64.22vh;
+	background-color: #1A7F7D;
+	float: left;
+	padding: 2%;
+  margin: 1% 1% 1% 1%;
+}
+
+.toys-footer {
+	width: 98%;
+	   height: 15.92vh;
+	   background-color: darkblue;
+	   float: left;
+     margin: 1% 1% 1% 1%;
+  }
+.left-footer {
+	    width: 13.25vw;
+	    height: 13.26vh;
+	    background-color: aqua;
+	    float: left;
+      margin: 1% 0% 0% 1%;
+	   }
+
+.right-footer {
+	    width: 38.96vw;
+	    height: 13.26vh;
+	    background-color: pink;
+	    float: inherit;
+      margin: 1% 1% 1% 1%;
+}
+article {
+	    width: 24.35vw;
+	    height: 52.01vh;
+	    background: violet;
+	    margin: 0 0 2% 1%;
+	    float: left;
+}
+.article-left-column {
+   width: 12.71vw;
+	 height: 65.28vh;
+	 background: violet;
+	 margin: 0% 0% 0% -1%;
+	 float: left;
+}
+.article-right-column {
+
+   width: 39.5vw;
+	 height: 65.28vh;
+	 background: violet;
+	 margin: 0% -2% 2% 1%;
+}
+
+aside  {
+	   width: 46%;
+	   height: 47%;
+	   background-color: #64569E;
+	   float: right;
+}
 
 .toys-logo  {
-   width: 230px;
-	 height: 120px;
+   width: 12.44vw;
+	 height: 12.73vh;
 	 background-color: #64569E;
 	 background-image: url("https://raw.githubusercontent.com/j354374/dld/master/assignment1/images/toyslogo.png");
    float: left;
@@ -18,194 +135,8 @@
    padding: 1% 1% 1% 1%;
 }
 
-body {
-  margin: 0;
-  font-family: Montserrat, sans-serif;
-}
-
-h1 {
-  margin: 0;
-  padding: 0;
-}
-
-.wrapper {
-max-width: 60%;
-min-height: 128vh;
-background-color: yellow;
-margin: 0 auto;
-}
-
-/*.container {
-  width: 95%;
-  margin: auto;
-}*/
-
-
-
-header {
-  height: 15vh;
-  padding: 2% 2% 2% 2%;
-  margin: 2% 2% 2% 1%;
-  background: #B39DDB;
-}
-
-.footer-main {
-  padding: 0% 0% 0% 0%;
-  margin: 4% 2% 1% 2%;
-  height: 20vh;
-  background: #B39DDB;
-}
-
-nav {
-background-color: #ccc;
-height: 5vh;
-width: 96%;
-padding: 0% 0% 0% 0%;
-margin: 1% 0% 1% 2%;
-}
-
-header,
-footer,
-aside,
-main {
-  display: flex;
-}
-
-aside#left-aside {
-  background: #F06292;
-  width: 25%;
-  margin: 1% 1% 0% 1%;
-  height: 72vh;
-}
-aside#right-aside {
-  background: #F06292;
-  width: 75%;
-  margin: 1% 1% 1% 0%;
-  height: 72vh;
-}
-
-
-footer#left-footer {
-  background: #F06292;
-  width: 25%;
-  margin: 1% 1% 0% 1%;
-  height: 12vh;
-  float: left;
-}
-footer#right-footer {
-  background: #F06292;
-  width: 72%;
-  margin: 1% 1% 1% 0%;
-  height: 12vh;
-  float: right;
-}
-
-main {
-  background: #8BC34A;
-}
-
-aside,
-main {
-  float: left;
-  margin: 0;
-  padding: 0;
-  height: 75vh;
-}
-
-main {
-  margin: 1% 2% 2% 2%;
-  padding: 1% 0% 1% 0%;
-  width: 96%;
-}
-
-section,main:after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-@media(max-width:700px) {
-
-  .container {
-    width: 100%;
-  }
-
-
-
-  aside,
-  main {
-    float: none;
-  }
-
-
-  aside#left-aside {
-    background: #F06292;
-    width: 25%;
-    margin: 1% 1% 0% 1%;
-    height: 32vh;
-  }
-  aside#right-aside {
-    background: #F06292;
-    width: 75%;
-    margin: 1% 1% 1% 0%;
-    height: 32vh;
-  }
-
-  main {
-    height: 40vh;
-  }
-
-  main {
-    margin: 2% 0;
-    width: 100%;
-  }
-
-  .footer-main {
-    padding: 0% 0% 0% 0%;
-    margin: 4% 2% 1% 2%;
-    height: 15vh;
-    background: #B39DDB;
-  }
-}
-
-@media(max-width:600px) {
-
-  .container {
-    width: 100%;
-  }
-
-
-
-  aside,
-  main {
-    float: none;
-  }
-
-
-  aside#left-aside {
-    background: #F06292;
-    width: 25%;
-    margin: 1% 1% 0% 1%;
-    height: 32vh;
-  }
-  aside#right-aside {
-    background: #F06292;
-    width: 75%;
-    margin: 1% 1% 1% 0%;
-    height: 32vh;
-  }
-
-  main {
-    height: 40vh;
-  }
-
-  main {
-    margin: 2% 0;
-    width: 100%;
-  }
-  .footer-main {
-    padding: 0% 0% 0% 0%;
-    margin: 4% 2% 1% 2%;
-    height: 10vh;
-    background: #B39DDB;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
