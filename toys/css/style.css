@@ -15,7 +15,8 @@ body {
 
 #wrapper {
 /*min-width: 55.19vw;*/
-  max-width: 55.19vw;
+  /*max-width: 55.19vw;*/
+  max-width: 60%;
   min-height: 120.49vh;
   background-color: yellow;
   margin: 0 auto;
@@ -85,7 +86,8 @@ main {
 }
 
 .left-footer {
-  width: 13.25vw;
+  /*width: 13.25vw;*/
+  width: 25%;
   height: 13.26vh;
   background-color: aqua;
   float: left;
@@ -93,7 +95,8 @@ main {
 }
 
 .right-footer {
-  width: 38.96vw;
+  /*width: 38.96vw;*/
+  width: 72%;
   height: 13.26vh;
   background-color: pink;
   float: inherit;
@@ -119,10 +122,10 @@ article {
 
 .article-right-column {
   /*width: 39.5vw;*/
-  width: 70%;
+  width: 71%;
   height: 65.28vh;
   background: violet;
-  margin: 0% -2% 2% 1%;
+  margin: 0% -1% 2% 1%;
 }
 
 aside {
