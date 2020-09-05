@@ -161,3 +161,7 @@ min-width: 70%;
 .right-footer {
 	    min-width: 67%;
     }
+    
+    main {
+    min-height: 100%;
+    }
