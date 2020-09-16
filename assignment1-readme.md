@@ -1,5 +1,5 @@
-#readme
-TOC
+#readme 
+
 Toys website hosted on github pages at: [https://j354374.github.io/dld/assignment1/](https://j354374.github.io/dld/assignment1/)
 
 ### checklist:
