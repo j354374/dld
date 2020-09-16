@@ -128,11 +128,11 @@ https://www.freepik.com/free-vector/play-zone-text-style-effect_7885270.htm#page
 
 Images sources:
 
-https://www.target.com/p/cool-maker-go-glam-nail-salon-mani-pedi-set/-/A-79405156#lnk=sametab
-https://www.target.com/p/jurassic-world-super-colossal-indominus-rex/-/A-79416621#lnk=sametab
-https://www.target.com/p/nintendo-switch-lite-turquoise/-/A-77419248#lnk=sametab
-https://www.amazon.com/Superman-Red-Son-Figurine-Blu-ray/dp/B0859ND3JV
-https://www.target.com/p/mafex-john-wick-action-figure/-/A-78377122
+https://www.target.com/p/cool-maker-go-glam-nail-salon-mani-pedi-set/-/A-79405156#lnk=sametab \
+https://www.target.com/p/jurassic-world-super-colossal-indominus-rex/-/A-79416621#lnk=sametab \
+https://www.target.com/p/nintendo-switch-lite-turquoise/-/A-77419248#lnk=sametab \ 
+https://www.amazon.com/Superman-Red-Son-Figurine-Blu-ray/dp/B0859ND3JV \
+https://www.target.com/p/mafex-john-wick-action-figure/-/A-78377122 \
 https://www.amazon.com.au/Sw-E5-Bl-Gr-Yoda/dp/B07KL4QK94/ref=asc_df_B07KL4QK94/?tag=googleshopdsk-22&linkCode=df0&hvadid=341743473078&hvpos=&hvnetw=g&hvrand=3721335378286574749&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9070583&hvtargid=pla-781855249436&psc=1
 
 Video source:
@@ -141,10 +141,10 @@ https://www.dailymotion.com/video/xmf1kv
 
 Third party codepens used:
 
-https://codepen.io/dmdez/pen/emJBoy
-https://codepen.io/RoddyMunoz/pen/bEyqeb
-https://codepen.io/JonAnderDev/pen/wBopXo
-https://codepen.io/apalidis/pen/bjGGQW
+https://codepen.io/dmdez/pen/emJBoy \
+https://codepen.io/RoddyMunoz/pen/bEyqeb \
+https://codepen.io/JonAnderDev/pen/wBopXo \
+https://codepen.io/apalidis/pen/bjGGQW \
 
 references
 
