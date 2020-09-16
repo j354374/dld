@@ -1,13 +1,26 @@
 @charset "utf-8";
 
-/* Calculation */
-  --responsive: calc((var(--min-font) * 1px) + (var(--max-font) - var(--min-font)) * ((100vw - 420px) / (1200 - 420))); /* Ranges from 421px to 1199px */
+@import url(gallery.css);
+
+@import url(carousel.css);
+
+@import url(news.css);
+
+@import url(colourpicker.css);
+
+@font-face {
+  font-family: Jellee-Roman;
+  src: url(../fonts/Jellee-Roman.otf);
 }
 
-
+/*
+* {
+  --responsive: calc((var(--min-font) * 1px) + (var(--max-font) - var(--min-font)) * ((100vw - 420px) / (1200 - 420)));
+} this code was to help make the font size responsive and was removed because it didn't pass validation
+*/
 
 html {
- font-family: Verdana, "sans-serif";
+ font-family: Jellee-Roman;
  font-size: 1vw;
  text-rendering: optimizeLegibility;
  margin: 0;
@@ -15,28 +28,31 @@ html {
 }
 
 body {
-	background-color: #fffff0;
+	/*background-color: #fffff0;*/
+  background-image: url("../images/y-so-serious-white-pick.png");
 }
 
 #wrapper {
 max-width: 56%;
-min-height: 117.5vh;
-background-color: yellow;
+min-height: 127vh;
+/*background-color: #F2E416;*/
+background-image: url("../images/F2E416-hsv-noise.png");
 margin: 0 auto;
 }
 
 header {
  width: 98%;
  height: 19.1vh;
- background-color: #FF0004;
+ background-color: #2E3C8C;
  float: left;
  margin: 1% 1% 1% 1%;
 }
 
 nav {
 width: 98%;
-height: calc(2.5vw * 1.4vw);
-background-color: #33BEFF;
+/*height: calc(2.5vw * 1.4vw);*/
+/*height: 2.2vw;*/
+background-color: #63D8F2;
 float: left;
 margin: 1% 1% 1% 1%;
 }
@@ -52,15 +68,13 @@ nav li {
 	float: left;
 	list-style-type: none;
 	font-size: 100%;
-	background-color: #33BEFF;
-	padding-left: 0px;
+	background-color: #63D8F2;
+	/*padding-left: 0px;*/
 	padding-right: calc(8vw - 2em);
 	padding-bottom: calc(0.1em + 0.4vh);
-	margin: 0% 0% 0% 0%;
 }
 
 nav li a {
-	font-family: Arial, Helvetica, sans-serif;
 	display: block;
 	color: black;
 	text-align: center;
@@ -74,7 +88,7 @@ nav li a:hover {
 
 main {
 	width: 94%;
-	height: 64.22vh;
+	height: 74.22vh;
 	background-color: #1A7F7D;
 	float: left;
 	padding: 2%;
@@ -84,49 +98,58 @@ main {
 .toys-footer {
 	   width: 98%;
 	   height: 15.92vh;
-	   background-color: darkblue;
+	   background-color: #F24E29;
 	   float: left;
      margin: 1% 1% 1% 1%;
   }
 .left-footer {
 	    width: 25%;
 	    height: 13.27vh;
-	    background-color: aqua;
+	    background-color: #038C3E;
 	    float: left;
-      margin: 1% 0% 0% 1%;
-			padding: 0% 0% 0% 1%;
+      margin: 1% 0 0 1%;
+			padding: 0 0 0 1%;
 	   }
 
 .right-footer {
 	    width: 70%;
 	    height: 13.26vh;
-	    background-color: pink;
+	    background-color: #63D8F2;
 	    float: inherit;
       margin: 1% 1% 1% 1%;
-			padding: 0% 0% 0% 1%;
+			padding: 0 0 0 1%;
 }
-article {
+section {
 	    /*width: 40%;*/
 	    height: 52.01vh;
-	    background: violet;
+	    background: #F2E416;
 	    margin: 0 0 2% 1%;
 	    float: left;
 }
-.article-left-column {
+.section-left-column {
    width: 25%;
-	 height: 65.3vh;
-	 background: violet;
-	 margin: 0% 0% 0% -1%;
-	 padding: 0% 0% 0% 1%;
+	 height: 75.3vh;
+	 background: #63D8F2;
+	 margin: 0 0 0 -1%;
+	 padding: 0 0 0 1%;
 	 float: left;
 }
-.article-right-column {
+.section-right-column {
 
    width: 74%;
-	 height: 65.3vh;
-	 background: violet;
-	 margin: 0% -2% 2% 1%;
-	 padding: 0% 0% 0% 1%;
+	 height: 75.3vh;
+	 background: #F2E416;
+	 margin: 0 -2% 2% 1%;
+	 padding: 0 0 0 1%;
+   overflow: auto;
+}
+
+.section-left-column h2 {
+  display: none;
+}
+
+.section-right-column h2 {
+    display: none;
 }
 
 aside  {
@@ -141,9 +164,8 @@ aside  {
 	 height: 12.73vh;
 	 background-color: #64569E;
 	 /* background-image: url("https://raw.githubusercontent.com/j354374/dld/master/assignment1/images/toyslogo.png");*/
-	 background-image: var(--LogoImageBg);
-   float: left;
-   margin: 2% 0% 0% 2%;
+	 float: left;
+   margin: 2% 0 0 2%;
    padding: 1% 1% 1% 1%;
 	 background-position: center center;
 	 background-repeat: no-repeat;
@@ -152,6 +174,9 @@ aside  {
 	 background-size: cover;
 }
 
+.toys-logo h1 {
+display: none;
+}
 
 
 .clearfix::after {
@@ -161,32 +186,75 @@ aside  {
 }
 
 p {
-  font-family: sans-serif;
   margin: auto;
   width: fit-content;
 
-  /* Set max and min font sizes */
-  --max-font: 20;
-  --min-font: 14;
-  font-size: var(--responsive);
+font-size: min(max(16px, 4vw), 22px);
+/*  max-font-size: 20;
+  min-font-size: 14;
+/*  font-size: var(--responsive);*/
 }
 
 h1 {
-  /* Set max and min font sizes */
+  /* Set max and min font sizes
   --max-font: 50;
-  --min-font: 25;
-  font-family: var(--main-font);
-  font-size: var(--responsive);
+  --min-font: 25; */
+  font-size: min(max(16px, 4vw), 22px);
+  font-size: 20em;
 }
 
+button{
+  display:inline-block;
+  height: 7vh;
+  width: 89%;
+  box-sizing: border-box;
+  color:white;
+  text-align: center;
+  padding: 1%;
+  background-color: #038C3E; /* Green */
+}
+
+video {
+width: 35vw;
+height: 40vh;
+margin-top: 2%;
+}
+
+#toy-main.panel {
+  display: inline;
+}
+
+#toy-pictures-latest.panel,#toy-pictures-greatest.panel,#toy-specials.panel,#toy-colours.panel,#toy-news-archives.panel,#toy-breaking-news.panel {
+	display: none;
+}
+
+#toy-pictures-latest-footer.panel,#toy-pictures-greatest-footer.panel,#toy-specials-footer.panel,#toy-colours-footer.panel,
+#toy-news-archives-footer.panel,#toy-breaking-news-footer.panel {
+  display: none;
+}
+
+#toy-news-archives.panel{
+overflow-y: scroll;
+}
 
 @media (min-width: 1200px) {
   h1,
   p {
-    font-size: calc(var(--max-font) * 1px);
+    font-size: 1em;
   }
 	.toys-logo  {
---LogoImageBg: url("../images/toyslogo.png");
+    background-image: url("../images/toyslogo.png");
+}
+
+}
+
+@media (max-width: 1200px) {
+  h1,
+  p {
+    font-size: 1em;
+  }
+	.toys-logo  {
+    background-image: url("../images/toyslogo.png");
 }
 
 }
@@ -194,7 +262,7 @@ h1 {
 @media (max-width: 420px) {
   h1,
   p {
-    font-size: calc(var(--min-font) * 1px);
+    font-size: 1.6em;
   }
 }
 
@@ -203,7 +271,7 @@ h1 {
 	#wrapper {
 		min-width: 80%;
 	}
-
+}
 
 @media(max-width:850px) {
 	#wrapper {
@@ -221,44 +289,41 @@ h1 {
 	#wrapper {
 		min-width: 100%;
 	}
+}
 
-@media(max-width:350px)
-{
+@media(max-width:350px){
 
 	nav {
 	  clear: both;
 	  display: inline-block; /*shrinks div so it's just wide enough to fit */
 	}
 
-	nav ul {
-    list-style-type: none;
-	  padding-left: 0;
-	}
-
-	nav ul li {
-  margin: 0 0 .25em 0;
-	}
-
-	nav ul li a {
-    text-decoration: none;
-	  font-size: 1.1em;
-	  font-weight: 800;
-	  display: block;
-	  padding: .15em;
-	}
-
-
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-	@media(min-width:551px) {
-		.toys-logo  {
-	--LogoImageBg: url("../images/toyslogo.png");
-		}
-		}
+nav ul li {
+  margin: 0 0 .25em 0;
+}
 
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 800;
+  display: block;
+  padding: .15em;
+}
+}
 
-	@media(max-width:550px) {
-		.toys-logo  {
-	--LogoImageBg: url("../images/toyslogo-sm.png?version=1");
-		}
-		}
+@media(min-width:551px) {
+  .toys-logo {
+    background-image: url("../images/toyslogo.png");
+  }
+}
+
+@media(max-width:550px) {
+  .toys-logo {
+    background-image: url("../images/toyslogo-sm.png");
+  }
+}
