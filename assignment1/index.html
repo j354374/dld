@@ -1,41 +1,347 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Toys</title>
+    <head>
+        <meta charset="utf-8" />
+        <title>Toys</title>
 
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-	<div id="wrapper">
-	 <header>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <section class="toys-logo"><h1>Logo</h1></section>
+            </header>
 
-		 <section class="toys-logo"></section>
+            <nav>
+                <ul id="nav-ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#0">Price</a></li>
+                    <li><a href="#0">Options</a></li>
+                    <li><a href="#0">News</a></li>
+                    <li><a href="#0">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section class="section-left-column">
+                    <h2>left-column</h2>
+                    <nav>
+                        <ul>
+                            <li>
+                                <details>
+                                    <summary>Toy Pictures</summary>
+                                    <button type="button" id="btnlatest" data-value="toy-pictures-latest" class="buttons">Latest</button>
+                                    <button type="button" id="btngreatest" data-value="toy-pictures-greatest" class="buttons">Greatest</button>
+                                </details>
+                            </li>
+                            <li>
+                                <details><summary>Toy Prices</summary> <button type="button" id="btnspecials" data-value="toy-specials" class="buttons">Specials</button></details>
+                            </li>
 
-	 </header>
+                            <li>
+                                <details><summary>Toy Options</summary><button type="button" id="colours" data-value="toy-colours" class="buttons">Colours</button></details>
+                            </li>
+                            <li>
+                                <details><summary>Toy News Articles</summary><button type="button" id="oldnews" data-value="toy-news-archives" class="buttons">Archives</button></details>
+                            </li>
+                            <li>
+                                <details><summary>Toy-Breaking News</summary><button type="button" id="latest-news" data-value="toy-breaking-news" class="buttons">Latest News</button></details>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="section-right-column clearfix">
+                    <h2>right-column</h2>
+                    <noscript>This section requires javascript.</noscript>
+                    <!--Section: toys main -->
+                    <section id="toys-main" class="panel">
+                        <h2>Welcome to Playzone</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget massa tellus. Phasellus quis sem vel lacus varius condimentum. Suspendisse blandit nulla ut venenatis fringilla. Quisque placerat et urna id
+                            aliquet. Quisque vel purus erat. Nunc facilisis, sapien posuere malesuada ultrices, magna sem sodales magna, vitae laoreet ipsum sapien tempus leo. Integer lacinia nisl magna, nec laoreet est euismod ac. Donec at
+                            metus id est interdum consequat. Aenean efficitur laoreet sem vitae placerat. Vestibulum pulvinar tincidunt ante a laoreet.
+                        </p>
+                        <video controls>
+                            <source src="video/playzone.webm" type="video/webm" />
 
-	 <nav>
-		 <ul id="nav-ul">
-		  <li><a href="index.html">Home</a></li>
-		  <li><a href="#0">Price</a></li>
-		  <li><a href="#0">Options</a></li>
-		  <li><a href="#0">News</a></li>
-			 <li><a href="#0">Contact</a></li>
-		</ul>
-	 </nav>
-	 <main>
+                            Your browser does not support the video tag.
+                        </video>
+                    </section>
+                    <!--Section: Toy Pictures Latest -->
+                    <section id="toy-pictures-latest" class="panel">
+                        <h2>Latest Toy Pictures</h2>
 
-		 <article class="article-left-column"><p>Leftcolumn<p></article>
-		 <article class="article-right-column clearfix"><p>RightColumn<p></article>
+                        <!--article class="container"-->
+                        <article class="item red">
+                            <h2>red</h2>
+                            <img src="images/switch.png" alt="Nintendo switch" />
+                            <i class="fa fa-camera"></i>
+                        </article>
 
-	 </main>
-	 <section class="toys-footer">
-		 <footer class="left-footer"><p>leftfooter</p></footer>
-		 <footer class="right-footer"><p>rightfooter</p></footer>
+                        <article class="item blue">
+                            <h2>blue</h2>
+                            <img src="images/nails.png" alt="girls nail salon" />
+                            <i class="fa fa-paw"></i>
+                        </article>
 
-     </section>
+                        <article class="item green">
+                            <h2>green</h2>
+                            <img src="images/jurrasic.png" alt="dinosaur toy" />
+                            <i class="fa fa-cloud"></i>
+                        </article>
 
-	 </div>
-</body>
+                        <!--/article-->
+                    </section>
+
+                    <!--Section: Toy Pictures Greatest -->
+                    <section id="toy-pictures-greatest" class="panel">
+                        <h2>Greatest Toy Pictures</h2>
+
+                        <!--article class="container"-->
+                        <article class="item red">
+                            <h2>red</h2>
+                            <img src="images/supermanredson1.jpg" alt="superman red son toy and dvd" />
+                            <i class="fa fa-camera"></i>
+                        </article>
+
+                        <article class="item blue">
+                            <h2>blue</h2>
+                            <img src="images/john-wick.png" alt="John Wick Figurine" />
+                            <i class="fa fa-paw"></i>
+                        </article>
+
+                        <article class="item green">
+                            <h2>green</h2>
+                            <img src="images/yoda.png" alt="Yoda figurine" />
+                            <i class="fa fa-cloud"></i>
+                        </article>
+                        <!--/article-->
+                    </section>
+
+                    <!--Section: Specials -->
+                    <article id="toy-specials" class="panel">
+                        <h2>Specials</h2>
+                        <!-- Css Carousel-->
+                        <article class="carrousel">
+                            <h2>nav</h2>
+
+                            <input type="radio" name="slides" id="radio-1" checked />
+                            <input type="radio" name="slides" id="radio-2" />
+                            <input type="radio" name="slides" id="radio-3" />
+                            <input type="radio" name="slides" id="radio-4" />
+                            <ul class="slides">
+                                <li class="slide">
+                                    <p>
+                                        <br />
+
+                                        <span class="author">
+                                            <img src="images/stonekeeper.png" alt="stonekeeper" /><br />
+                                            Funko Pop! Movies: Smallfoot - Stonekeeper Vinyl Figure<br />
+                                            RRP: <del>$80</del><br />
+                                            You pay: $67<br />
+                                            Saving: $13<br />
+                                            <button type="button">Buy Now</button>
+                                        </span>
+                                    </p>
+                                </li>
+                                <li class="slide">
+                                    <p>
+                                        <span class="author">
+                                            <br />
+                                            <br />
+                                            <img src="images/funkoironman.png" alt="iron-man" /><br />
+                                            Funko POP! Marvel: Black Light Iron Man<br />
+                                            RRP: <del>$80</del><br />
+                                            You pay: $67<br />
+                                            Saving: $13<br />
+
+                                            <button type="button">Buy Now</button>
+                                        </span>
+                                    </p>
+                                </li>
+                                <li class="slide">
+                                    <p>
+                                        <span class="author">
+                                            <img src="images/naruto.png" alt="naruto" /><br />
+                                            <br />
+                                            Funko Naruto POP! Animation Orochimaru Vinyl Figure
+                                            <br />
+                                            RRP: <del>$80</del><br />
+                                            You pay: $67<br />
+                                            Saving: $13<br />
+
+                                            <button type="button">Buy Now</button>
+                                        </span>
+                                    </p>
+                                </li>
+                                <li class="slide">
+                                    <p>
+                                        <span class="author">
+                                            <img src="images/mandalorian.png" alt="mandalorian" /><br />
+                                            Funko POP! Star Wars: The Mandalorian - The Child Concerned <br />
+                                            RRP: <del>$80</del><br />
+                                            You pay: $67<br />
+                                            Saving: $13<br />
+
+                                            <button type="button">Buy Now</button>
+                                        </span>
+                                    </p>
+                                </li>
+                            </ul>
+                            <article class="slidesNavigation">
+                                <h2>nav</h2>
+                                <label for="radio-1" id="dotForRadio-1"></label>
+                                <label for="radio-2" id="dotForRadio-2"></label>
+                                <label for="radio-3" id="dotForRadio-3"></label>
+                                <label for="radio-4" id="dotForRadio-4"></label>
+                            </article>
+                        </article>
+                    </article>
+
+                    <!-- Start toy colours-->
+                    <article id="toy-colours" class="panel">
+                        <h2>Color Picker</h2>
+                        <p>Toy Colours</p>
+                        <input />
+                        <div class="colorPicker">
+                            <input class="red" type="radio" name="hat-color" value="red" id="hat-color-red" />
+                            <label class="red" for="hat-color-red" tabindex="0">red</label>
+                            <input class="orange" type="radio" name="hat-color" value="orange" id="hat-color-orange" />
+                            <label class="orange" for="hat-color-orange" tabindex="0">orange</label>
+                            <input class="yellow" type="radio" name="hat-color" value="yellow" id="hat-color-yellow" />
+                            <label class="yellow" for="hat-color-yellow" tabindex="0">yellow</label>
+                            <input class="green" type="radio" name="hat-color" value="green" id="hat-color-green" />
+                            <label class="green" for="hat-color-green" tabindex="0">green</label>
+                            <input class="blue" type="radio" name="hat-color" value="blue" id="hat-color-blue" />
+                            <label class="blue" for="hat-color-blue" tabindex="0">blue</label>
+                            <input class="indigo" type="radio" name="hat-color" value="indigo" id="hat-color-indigo" />
+                            <label class="indigo" for="hat-color-indigo" tabindex="0">indigo</label>
+                            <input class="violet" type="radio" name="hat-color" value="violet" id="hat-color-violet" />
+                            <label class="violet" for="hat-color-violet" tabindex="0">violet</label>
+                        </div>
+                        <input />
+                    </article>
+
+                    <!-- Start toy news archives -->
+                    <article id="toy-news-archives" class="panel">
+                        <header class="news-banner">
+                            <h2>Toy Zone</h2>
+                            <p>Toy and Fun Event News Archives</p>
+                        </header>
+
+                        <article class="news-article"><h2>news header</h2>
+                            <article class="news-header">
+                                <h3>2019 New Toy Factory</h3>
+                                <p>(FUN Team, 10-5-2019)</p>
+                            </article>
+
+                            <p>
+                                Etiam cursus quam vel justo fringilla, id finibus ex tristique. Integer ex lectus, efficitur a sodales at, efficitur eleifend diam. Sed euismod semper sagittis. Ut sollicitudin est nisl. Curabitur consequat
+                                malesuada eros, sed tincidunt sapien consectetur at. Nullam nulla massa, congue eget nisl ac, maximus pretium neque. Cras accumsan non diam quis luctus. Suspendisse semper dolor eu urna tempor interdum.
+                                Pellentesque sem urna, lacinia interdum porta ac, dignissim ac ante.
+                            </p>
+                            <p>
+                                Quisque ac arcu volutpat, lacinia ante quis, pellentesque mi. Duis quam lorem, varius ut urna a, dapibus posuere diam. Ut pellentesque eget tortor nec sodales. Suspendisse sagittis augue vel dolor fringilla,
+                                eu tempor massa auctor. Vestibulum a nibh libero. Praesent in dui bibendum, iaculis urna sed, suscipit est. Donec sagittis arcu sit amet malesuada fermentum. Maecenas libero massa, accumsan vel eleifend nec,
+                                vestibulum eu lectus. Mauris lobortis nibh tortor, ac pellentesque velit tristique eu. Integer eget auctor nisl, ac blandit purus. Aliquam erat volutpat. Aenean sed faucibus magna, in malesuada sem.
+                            </p>
+                        </article>
+                        <article class="news-article">
+                            <header class="news-header">
+                                <h3>Santa refuses to condemn the CCP</h3>
+                                <p>(FUN Team, 10-2-2019)</p>
+                            </header>
+                            <p>
+                                Suspendisse blandit a dolor a imperdiet. Maecenas diam elit, vulputate sit amet ex at, efficitur laoreet eros. Phasellus feugiat facilisis faucibus. Nam lobortis sollicitudin eleifend. Duis eu metus eros. Sed
+                                ac velit sit amet urna volutpat maximus. Morbi sollicitudin iaculis faucibus. Quisque non accumsan turpis, vel pulvinar ligula. Donec eget justo eget lorem euismod ornare non in mauris. Pellentesque habitant
+                                morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce quis pharetra metus. Ut placerat, sem quis bibendum laoreet, leo erat dapibus urna, quis condimentum arcu arcu ac lacus. Ut sed
+                                sodales augue, sit amet ullamcorper magna. Suspendisse dui risus, hendrerit nec est non, rhoncus luctus erat.
+                            </p>
+                        </article>
+                        <!--</section>-->
+                        <section class="news-section">
+                            <h2>Fun Event News</h2>
+                            <article class="news-article">
+                                <header class="news-header">
+                                    <h3>Toy Design workshop 3D CAD</h3>
+                                    <p>(FUN Team, 10-2-2019)</p>
+                                </header>
+                                <p>
+                                    Phasellus elementum luctus tincidunt. Morbi pulvinar, enim nec auctor pulvinar, purus eros pellentesque massa, eget tincidunt nisl tortor a tellus. Mauris volutpat iaculis nunc, nec hendrerit est
+                                    tristique eu. Vestibulum pharetra elit semper egestas lobortis. In id tempor orci, sed viverra neque. Maecenas orci elit, aliquam at finibus ut, scelerisque id diam. Nullam rutrum blandit tortor vitae
+                                    elementum. In hac habitasse platea dictumst. Maecenas eu blandit dolor. Aenean nisi sem, hendrerit in lectus efficitur, eleifend condimentum lectus.
+                                </p>
+                            </article>
+                            <article class="news-article">
+                                <header class="news-header">
+                                    <h3>3D printer, laser and CNC router Toy Making Class</h3>
+                                    <p>(FUN Team, 10-1-2018)</p>
+                                </header>
+                                <p>
+                                    Donec congue dictum enim et aliquet. Sed eu enim velit. Mauris quis blandit ante. Quisque quis lacus quis arcu commodo rhoncus ac non neque. Morbi luctus facilisis sagittis. Pellentesque egestas suscipit
+                                    faucibus. Nullam finibus nec tortor non rutrum. Nam tempor, leo nec sagittis commodo, diam ligula molestie ipsum, sed facilisis erat enim a leo. Fusce vestibulum eleifend urna non laoreet. Proin vel
+                                    laoreet nunc. Quisque nibh velit, congue eget hendrerit vitae, finibus at dui. In sit amet tellus arcu. Suspendisse viverra augue nec lacus eleifend, ut laoreet urna cursus. Sed luctus maximus felis, id
+                                    maximus metus aliquet et. Nam eu iaculis leo. Etiam vitae iaculis dolor, eu mollis sem.
+                                </p>
+                                <br />
+                                <p>
+                                    Sed malesuada volutpat justo quis porta. Morbi vel felis non erat efficitur sagittis. Vivamus eget velit tincidunt, tempor libero vel, malesuada risus. Donec quis leo est. Sed pellentesque ante placerat
+                                    nulla dignissim tincidunt eu id neque. Ut consectetur sodales ligula quis ullamcorper. Integer finibus nisi ut nibh tincidunt euismod.
+                                </p>
+                            </article>
+                        </section>
+                    </article>
+
+                    <!--section toy breaking news-->
+                    <article id="toy-breaking-news" class="panel">
+                        <header class="news-banner">
+                            <h2>Toy Zone</h2>
+                            <p>Toy Breaking News!</p>
+                        </header>
+
+                        <article class="news-article">
+                            <h2>Live News Feed:</h2>
+                            <script src="//rss.bloople.net/?url=https%3A%2F%2Fretail.economictimes.indiatimes.com%2Frss%2Ftoys-kids-and-baby%2Ftoys&showtitle=false&type=js"></script>
+                        </article>
+                    </article>
+                </section>
+            </main>
+            <section class="toys-footer clearfix">
+                <footer class="left-footer"><h6>Digital layout design assignment for North Metro TAFE. Student id: j354374, Date: Sept 2020</h6></footer>
+                <footer class="right-footer">
+                    <!--Start toy-pictures-latest-footer-->
+                    <article id="toy-pictures-latest-footer" class="panel">
+                        <h6>Image Gallery code based on <a href="https://codepen.io/apalidis/pen/bjGGQW">"Basic Image Gallery"</a> by <a href="https://codepen.io/apalidis">Adrian Palidis"</a>.</h6>
+                    </article>
+
+                    <!--Start toy-pictures-greatest-footer-->
+                    <article id="toy-pictures-greatest-footer" class="panel">
+                        <h6>Image Gallery code based on <a href="https://codepen.io/apalidis/pen/bjGGQW">"Basic Image Gallery"</a> by <a href="https://codepen.io/apalidis">Adrian Palidis"</a>.</h6>
+                    </article>
+                    <!--Start specials footer-->
+                    <article id="toy-specials-footer" class="panel">
+                        <h6>Specials display code based on <a href="https://codepen.io/JonAnderDev/pen/wBopXo">"Carousel - CSS only"</a> by <a href="https://codepen.io/JonAnderDev">Jon Ander Pérez</a>.</h6>
+                    </article>
+                    <!--Start toy colours footer-->
+                    <article id="toy-colours-footer" class="panel">
+                        <h6>Toy Colours code from <a href="https://codepen.io/dmdez/pen/emJBoy">HTML/CSS-only color picker concept</a> by <a href="https://codepen.io/dmdez">Deric Mendez</a>.</h6>
+                    </article>
+                    <!-- Start toy news archives footer-->
+                    <article id="toy-news-archives-footer" class="panel">
+                        <h6>Toy News Archive code based on <a href="https://codepen.io/RoddyMunoz/pen/bEyqeb">Roddy's Sushi Paradise</a> by <a href="https://codepen.io/RoddyMunoz">Roddy Munoz</a>.</h6>
+                    </article>
+                    <!-- Start toy breaking news footer -->
+                    <article id="toy-breaking-news-footer" class="panel">
+                        <h6>
+                            Toy Breaking News Footer RSS feed embedded html and javascript code provided by <a href="https://rss.bloople.net/">RSS bloople</a> <br />
+                            RSS <a href="https://retail.economictimes.indiatimes.com/rss">feed data</a> from <a href="https://retail.economictimes.indiatimes.com/">India ET Retail</a>
+                        </h6>
+                    </article>
+                </footer>
+            </section>
+        </div>
+        <footer>
+            <script src="js/script.js"></script>
+        </footer>
+    </body>
 </html>
